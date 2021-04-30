@@ -1,11 +1,18 @@
 
 body {
     font-family: 'Roboto', sans-serif;;
-    background:                                      #0F2027;
+
+    /* background:                                      #0F2027;
     background:     -webkit-linear-gradient(to left, rgb(115, 171, 196), #203A43, #0F2027); 
-    background:             linear-gradient(to left, rgb(255, 255, 255), rgb(25, 172, 221), #0F2027);  
+    background:             linear-gradient(to left, rgb(255, 255, 255), rgb(25, 172, 221), #0F2027);   */
 }
 
+
+html {
+    background-image: url(images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .both {
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
